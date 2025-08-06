@@ -2,7 +2,7 @@
 
 **Date**: [YYYY-MM-DD]  
 **Documentation Type**: [API/User Guide/Technical Spec/Code Comments/README]  
-**Status**: 🟡 IN_PROGRESS | 🟢 COMPLETED | 🔄 NEEDS_REVIEW | 📝 UPDATED  
+**Status**: 🟡 IN_PROGRESS | 🟢 COMPLETED | � BLOCKED | �🔄 NEEDS_REVIEW  
 **Writer**: AI Documentation Agent  
 
 ---

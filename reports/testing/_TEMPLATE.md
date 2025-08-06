@@ -2,7 +2,7 @@
 
 **Date**: [YYYY-MM-DD]  
 **Test Suite**: [Feature/Component/Module being tested]  
-**Status**: 🟡 IN_PROGRESS | 🟢 COMPLETED | 🔴 FAILED | 🔄 NEEDS_REVIEW  
+**Status**: 🟡 IN_PROGRESS | 🟢 COMPLETED | 🔴 BLOCKED | 🔄 NEEDS_REVIEW  
 **Tester**: AI Testing Agent  
 **Testing Type**: [Unit/Integration/End-to-End/Performance/Security]  
 

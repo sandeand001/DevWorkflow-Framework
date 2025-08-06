@@ -2,7 +2,7 @@
 
 **Date**: [YYYY-MM-DD]  
 **Exploration Scope**: [Repository/Module/Feature being analyzed]  
-**Status**: 🟡 IN_PROGRESS | 🟢 COMPLETED | 🔄 NEEDS_REVIEW | 📋 CATALOGUED  
+**Status**: 🟡 IN_PROGRESS | 🟢 COMPLETED | � BLOCKED | �🔄 NEEDS_REVIEW  
 **Explorer**: AI Code Exploration Agent  
 **Analysis Type**: [Architecture/Technology Stack/Feature Analysis/Code Quality]  
 

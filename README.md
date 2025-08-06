@@ -52,7 +52,7 @@ DevWorkflow-Framework/
 
 ### AI Agent Roles
 
-The framework includes six specialized AI agent roles:
+The framework includes seven specialized AI agent roles:
 
 #### 🔍 **@explorer** (`instructions/explorer.md`)
 **Codebase analysis and architectural overview**

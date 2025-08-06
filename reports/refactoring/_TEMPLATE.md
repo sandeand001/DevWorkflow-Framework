@@ -2,7 +2,7 @@
 
 **Date**: [YYYY-MM-DD]  
 **Refactoring ID**: [Ticket/Task Number or "Code Quality Initiative"]  
-**Status**: 🟡 IN_PROGRESS | 🟢 COMPLETED | 🔄 NEEDS_REVIEW | 📝 DOCUMENTED  
+**Status**: 🟡 IN_PROGRESS | 🟢 COMPLETED | � BLOCKED | �🔄 NEEDS_REVIEW  
 **Developer**: AI Refactoring Agent  
 **Scope**: [Component/Module/Feature being refactored]  
 
