@@ -119,12 +119,12 @@ The framework includes **7 specialized AI agents**, each designed as a domain ex
 
 ```mermaid
 graph TD
-    A[@explorer] --> B[@docwriter]
-    A --> C[@reviewer]
-    C --> D[@fixer]
-    C --> E[@refactorer]
-    B --> F[@tester]
-    D --> G[@troubleshooter]
+    A["🗺️ explorer<br/>Architecture Analysis"] --> B["📝 docwriter<br/>Documentation"]
+    A --> C["👁️ reviewer<br/>Quality Assurance"]
+    C --> D["🛠️ fixer<br/>Bug Resolution"]
+    C --> E["🔧 refactorer<br/>Code Improvement"]
+    B --> F["🧪 tester<br/>Testing Strategy"]
+    D --> G["🔍 troubleshooter<br/>Problem Investigation"]
     E --> F
 ```
 
@@ -378,13 +378,13 @@ DevWorkflow-Framework/
 
 ```mermaid
 graph LR
-    A[Identify Need] --> B[@explorer]
+    A[Identify Need] --> B["🗺️ explorer<br/>Analysis"]
     B --> C[Analysis Report]
-    C --> D[@docwriter]
+    C --> D["📝 docwriter<br/>Documentation"]
     D --> E[Documentation]
-    E --> F[@reviewer]
+    E --> F["👁️ reviewer<br/>Quality Check"]
     F --> G[Quality Check]
-    G --> H[@tester]
+    G --> H["🧪 tester<br/>Validation"]
     H --> I[Validation]
     I --> J[Contribution Ready]
 ```
