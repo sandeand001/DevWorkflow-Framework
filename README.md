@@ -2,7 +2,17 @@
 
 **Production-ready AI-assisted development workflow framework with modular agent architecture for consistent, high-quality software development**
 
-[![Framework Status](https://img.shields.io/badge/Status-Production%20Ready-green)](https://github.com/sandeand001/DevWorkflow-Framework)
+[![Fram#### � **Full Development Lifecycle**
+```mermaid
+graph LR
+    A[New Project] --> B["🗺️ explorer<br/>Architecture Analysis"]
+    B --> C["📝 docwriter<br/>Documentation Creation"]  
+    C --> D["🔍 reviewer<br/>Quality Assessment"]
+    D --> E["🧪 tester<br/>Test Implementation"]
+    E --> F["🔧 fixer<br/>Issue Resolution"]
+    F --> G["⚡ refactorer<br/>Code Optimization"]
+    G --> H[Production Ready]
+```s](https://img.shields.io/badge/Status-Production%20Ready-green)](https://github.com/sandeand001/DevWorkflow-Framework)
 [![Architecture](https://img.shields.io/badge/Architecture-5%2F5%20Stars-gold)](https://github.com/sandeand001/DevWorkflow-Framework)
 [![Documentation](https://img.shields.io/badge/Documentation-Complete-blue)](https://github.com/sandeand001/DevWorkflow-Framework)
 
