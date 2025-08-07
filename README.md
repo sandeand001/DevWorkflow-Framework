@@ -1,52 +1,98 @@
 # DevWorkflow-Framework
 
-**A structured AI-assisted development workflow framework for enhanced code quality and project management**
+**A structured AI-assisted development workflow framework with specialized agent commands for enhanced code quality and project management**
 
 ## Description
 
 The DevWorkflow-Framework is a comprehensive development workflow system that leverages specialized AI agents to streamline software development processes. It provides standardized instructions, templates, and reporting structures to ensure consistent, high-quality development practices across projects.
 
-This framework implements a role-based AI agent system where each agent specializes in specific development tasks - from code exploration and documentation to testing and troubleshooting. The system promotes best practices, maintainability, and systematic problem-solving in software development.
+This framework implements a **role-based AI agent system** where you can use simple `@agent` commands to instantly switch your AI assistant into specialized roles - from code exploration and documentation to testing and troubleshooting. Each agent follows detailed instructions and promotes best practices for their specific domain.
 
 ## Key Features
 
-- **🤖 Specialized AI Agent Instructions** - Role-specific AI assistants for different development tasks
-- **📋 Standardized Report Templates** - Consistent documentation and analysis formats
-- **📊 Comprehensive Project Management** - Structured approach to development lifecycle
+- **🤖 Agent Command System** - Use `@docwriter`, `@explorer`, `@reviewer`, etc. to switch AI roles instantly
+- **📋 Specialized AI Instructions** - Each agent has detailed, role-specific guidance and methodologies  
+- **� Automated Report Generation** - Structured documentation and analysis outputs
 - **🔄 Quality Assurance Workflow** - Built-in review and validation processes
-- **📚 Knowledge Management** - Centralized documentation and reporting system
+- **� Portable Framework** - Easy integration into any project via git submodules
+
+## Quick Start
+
+### 30-Second Setup
+
+```bash
+# Add to any project
+git submodule add https://github.com/sandeand001/DevWorkflow-Framework.git devworkflow
+```
+
+### Use Agent Commands
+
+In your AI chat (GitHub Copilot, Claude, etc.):
+
+```
+# Initialize the system
+"Please follow the agent system in devworkflow/AGENT_SYSTEM.md"
+
+# Use specialized agents
+@docwriter update the README with installation instructions
+@explorer analyze this codebase architecture  
+@reviewer check this code for security issues
+@tester design comprehensive test coverage
+@fixer debug this authentication error
+@refactorer improve code structure and reduce debt
+@troubleshooter investigate this performance problem
+```
+
+**Full Setup Guide**: [`QUICK_SETUP.md`](QUICK_SETUP.md)  
+**Complete Documentation**: [`AGENT_SYSTEM.md`](AGENT_SYSTEM.md)
+
+## Available Agents
+
+| Agent Command | Role | Purpose |
+|---------------|------|---------|
+| `@docwriter` | Technical Documentation Specialist | README creation, API docs, technical writing |
+| `@explorer` | Codebase Architecture Analyst | Code exploration, architecture mapping, entry points |
+| `@reviewer` | Code Quality & Standards Auditor | Security review, standards compliance, quality assessment |
+| `@tester` | Test Strategy & Implementation | Test design, coverage analysis, framework recommendations |
+| `@fixer` | Bug Diagnosis & Resolution | Issue diagnosis, minimal surgical fixes, validation |
+| `@refactorer` | Code Quality Improvement | Structure improvement, technical debt reduction |
+| `@troubleshooter` | Problem Investigation Specialist | Root cause analysis, systematic debugging |
 
 ## Getting Started
 
 ### Prerequisites
 
+- AI assistant capable of following detailed instructions (GitHub Copilot, ChatGPT, Claude, etc.)
+- Git for version control and submodule management
 - Basic understanding of software development workflows
-- AI assistant capable of following detailed instructions (GitHub Copilot, ChatGPT, etc.)
-- Markdown editor or IDE with markdown support
-- Git for version control
 
-### Installation
+### Installation Options
 
-1. Clone or download the DevWorkflow-Framework:
+**Option 1: Git Submodule (Recommended)**
 ```bash
-git clone <repository-url>
-cd DevWorkflow-Framework
+# In your project directory
+git submodule add https://github.com/sandeand001/DevWorkflow-Framework.git devworkflow
+git submodule update --init --recursive
 ```
 
-2. Familiarize yourself with the project structure:
-```
-DevWorkflow-Framework/
-├── instructions/          # AI agent role definitions
-├── reports/              # Documentation and analysis hub
-└── README.md            # This file
+**Option 2: Direct Copy**
+```bash
+cp -r /path/to/DevWorkflow-Framework ./devworkflow
 ```
 
-### Quick Start
+### Project Structure
 
-1. **Choose your development task** from the available AI agent roles
-2. **Load the appropriate instruction file** into your AI assistant
-3. **Use the corresponding report template** for documentation
-4. **Follow the structured workflow** outlined in each instruction set
+When integrated, your project will include:
+```
+your-project/
+├── devworkflow/              # DevWorkflow Framework
+│   ├── instructions/        # Agent instruction files
+│   ├── reports/            # Generated analysis reports  
+│   ├── AGENT_SYSTEM.md     # Complete documentation
+│   └── QUICK_SETUP.md      # Setup guide
+├── src/                    # Your project code
+└── README.md              # Your project documentation
+```
 
 ## Usage
 
