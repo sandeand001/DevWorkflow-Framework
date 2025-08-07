@@ -2,7 +2,17 @@
 
 **Production-ready AI-assisted development workflow framework with modular agent architecture for consistent, high-quality software development**
 
-[![Fram#### � **Full Development Lifecycle**
+[![Fram#### � **F#### � **Full Development Lifecycle**
+```mermaid
+graph LR
+    A[New Project] --> B["🗺️ explorer<br/>Architecture Analysis"]
+    B --> C["📝 docwriter<br/>Documentation Creation"]  
+    C --> D["🔍 reviewer<br/>Quality Assessment"]
+    D --> E["🧪 tester<br/>Test Implementation"]
+    E --> F["🔧 fixer<br/>Issue Resolution"]
+    F --> G["⚡ refactorer<br/>Code Optimization"]
+    G --> H[Production Ready]
+```ment Lifecycle**
 ```mermaid
 graph LR
     A[New Project] --> B["🗺️ explorer<br/>Architecture Analysis"]
@@ -190,12 +200,12 @@ DevWorkflow-Framework/
 #### � **Full Development Lifecycle**
 ```mermaid
 graph LR
-    A[New Project] --> B[@explorer]
-    B --> C[@docwriter]  
-    C --> D[@reviewer]
-    D --> E[@tester]
-    E --> F[@fixer]
-    F --> G[@refactorer]
+    A[New Project] --> B["🗺️ explorer<br/>Architecture Analysis"]
+    B --> C["📝 docwriter<br/>Documentation Creation"]  
+    C --> D["🔍 reviewer<br/>Quality Assessment"]
+    D --> E["🧪 tester<br/>Test Implementation"]
+    E --> F["🔧 fixer<br/>Issue Resolution"]
+    F --> G["⚡ refactorer<br/>Code Optimization"]
     G --> H[Production Ready]
 ```
 
