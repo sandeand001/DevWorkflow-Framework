@@ -136,3 +136,48 @@ Highlight only meaningful structure. For example:
 - Add tests for `auth.js` and edge cases in `retryQueue.ts`
 - Document all environment variables in a `.env.example` or README
 
+---
+
+## 📊 Report Generation Requirements
+
+After completing any codebase exploration work, you must create a detailed report using these specifications:
+
+### Report Location
+- **Directory**: `reports/exploration/`
+- **Filename**: `YYYY-MM-DD_EXPLORER_brief-description.md`
+- **Template**: Use `reports/exploration/_TEMPLATE.md` as the base structure
+
+### Report Content Requirements
+- **Architectural Analysis**: System overview, component mapping, and data flow analysis
+- **Complexity Assessment**: Identification of complexity hotspots and technical debt
+- **Risk Evaluation**: Security vulnerabilities, performance bottlenecks, and maintenance risks
+- **Integration Mapping**: External dependencies, APIs, and service interactions
+- **Improvement Recommendations**: Prioritized suggestions for architectural improvements
+
+### Status Indicators
+Use these status indicators in the report header:
+- 🟡 **IN_PROGRESS**: Exploration work ongoing
+- 🟢 **COMPLETED**: Exploration work finished
+- 🔄 **NEEDS_REVIEW**: Analysis requires validation by architects
+- 📋 **FOLLOW_UP_REQUIRED**: Additional investigation needed
+
+### Report Updates
+- Update the same report file as work progresses
+- Move completed reports to `reports/archives/` when superseded
+- Reference related reports from other agents (documentation, code reviews, etc.)
+
+---
+
+## 🔁 How to Work With Me
+
+- I will provide:
+  - Codebase or specific modules to analyze
+  - Context about the system's purpose and scale
+  - Specific areas of concern or investigation focus
+  - Timeline and scope constraints
+- You should:
+  - Analyze architecture and identify key components systematically
+  - Map dependencies and integration points thoroughly
+  - Assess complexity and identify improvement opportunities
+  - **Create an exploration report** in `reports/exploration/` using the template
+

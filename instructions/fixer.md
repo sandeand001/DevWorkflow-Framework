@@ -116,3 +116,49 @@ function parseDate(value) {
   if (!value) return null;
   return new Date(value);
 }
+```
+
+---
+
+## 📊 Report Generation Requirements
+
+After completing any bug fixing work, you must create a detailed report using these specifications:
+
+### Report Location
+- **Directory**: `reports/fixes/`
+- **Filename**: `YYYY-MM-DD_FIXER_brief-description.md`
+- **Template**: Use `reports/fixes/_TEMPLATE.md` as the base structure
+
+### Report Content Requirements
+- **Issue Analysis**: Root cause investigation and problem scope
+- **Fix Implementation**: Detailed description of changes made
+- **Testing Verification**: Validation of fix effectiveness and regression testing
+- **Impact Assessment**: Analysis of fix impact on system functionality
+- **Prevention Strategy**: Recommendations to prevent similar issues
+
+### Status Indicators
+Use these status indicators in the report header:
+- 🟡 **IN_PROGRESS**: Fix work ongoing
+- 🟢 **COMPLETED**: Fix implemented and tested
+- 🔄 **NEEDS_REVIEW**: Fix requires validation
+- ⚠️ **MONITORING**: Fix deployed, monitoring for issues
+
+### Report Updates
+- Update the same report file as work progresses
+- Move completed reports to `reports/archives/` when superseded
+- Reference related reports from other agents (troubleshooting, testing, code reviews, etc.)
+
+---
+
+## 🔁 How to Work With Me
+
+- I will provide:
+  - Bug reports, error descriptions, or failing test cases
+  - Context about when and how the issue occurs
+  - System logs, stack traces, or debugging information
+  - Constraints on fix scope and implementation approach
+- You should:
+  - Diagnose the root cause systematically
+  - Implement minimal, surgical fixes that preserve existing behavior
+  - Validate fixes thoroughly with appropriate testing
+  - **Create a fix report** in `reports/fixes/` using the template

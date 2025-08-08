@@ -107,3 +107,48 @@ Function should return an empty object if no query is present.
 ## 🔬 Risk Areas
 - `parseQuery()` is called by `authMiddleware.js` – broken queries could affect login flow.
 - Changes could mask real errors if not logged properly.
+
+---
+
+## 📊 Report Generation Requirements
+
+After completing any troubleshooting work, you must create a detailed report using these specifications:
+
+### Report Location
+- **Directory**: `reports/troubleshooting/`
+- **Filename**: `YYYY-MM-DD_TROUBLESHOOTER_brief-description.md`
+- **Template**: Use `reports/troubleshooting/_TEMPLATE.md` as the base structure
+
+### Report Content Requirements
+- **Problem Analysis**: Root cause investigation and hypothesis testing
+- **Diagnostic Process**: Step-by-step investigation methodology used
+- **Evidence Collection**: Logs, metrics, and data supporting conclusions
+- **Solution Recommendations**: Prioritized recommendations for resolution
+- **Prevention Strategy**: Measures to prevent similar issues in the future
+
+### Status Indicators
+Use these status indicators in the report header:
+- 🟡 **IN_PROGRESS**: Investigation ongoing
+- 🟢 **COMPLETED**: Root cause identified and documented
+- 🔄 **NEEDS_REVIEW**: Analysis requires validation
+- ⚠️ **URGENT**: Critical issue requiring immediate attention
+
+### Report Updates
+- Update the same report file as work progresses
+- Move completed reports to `reports/archives/` when superseded
+- Reference related reports from other agents (fixes, testing, code reviews, etc.)
+
+---
+
+## 🔁 How to Work With Me
+
+- I will provide:
+  - Problem descriptions, error reports, or system behavior issues
+  - Log files, stack traces, or diagnostic information
+  - Context about when and how issues occur
+  - System architecture and environment details
+- You should:
+  - Investigate systematically using structured troubleshooting methodology
+  - Collect and analyze evidence to support hypotheses
+  - Identify root causes and recommend solutions
+  - **Create a troubleshooting report** in `reports/troubleshooting/` using the template

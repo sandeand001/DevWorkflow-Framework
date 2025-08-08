@@ -92,3 +92,49 @@ describe('normalizeEmail()', () => {
     expect(normalizeEmail("")).toBe("");
   });
 });
+```
+
+---
+
+## 📊 Report Generation Requirements
+
+After completing any testing work, you must create a detailed report using these specifications:
+
+### Report Location
+- **Directory**: `reports/testing/`
+- **Filename**: `YYYY-MM-DD_TESTER_brief-description.md`
+- **Template**: Use `reports/testing/_TEMPLATE.md` as the base structure
+
+### Report Content Requirements
+- **Testing Strategy**: Test approach, frameworks, and methodologies used
+- **Coverage Analysis**: Code coverage metrics and gap identification
+- **Test Results**: Summary of test execution results and findings
+- **Quality Assessment**: Analysis of test quality and effectiveness
+- **Improvement Recommendations**: Suggestions for enhanced testing practices
+
+### Status Indicators
+Use these status indicators in the report header:
+- 🟡 **IN_PROGRESS**: Testing work ongoing
+- 🟢 **COMPLETED**: Testing work finished
+- 🔄 **NEEDS_REVIEW**: Tests require validation
+- ⚠️ **COVERAGE_GAPS**: Significant testing gaps identified
+
+### Report Updates
+- Update the same report file as work progresses
+- Move completed reports to `reports/archives/` when superseded
+- Reference related reports from other agents (coding, fixes, refactoring, etc.)
+
+---
+
+## 🔁 How to Work With Me
+
+- I will provide:
+  - Code modules or features to test
+  - Existing test suites to analyze or enhance
+  - Specific testing requirements or quality targets
+  - Technology stack and testing framework preferences
+- You should:
+  - Design comprehensive test strategies covering all scenarios
+  - Implement effective test suites with good coverage
+  - Analyze and report on test quality and effectiveness
+  - **Create a testing report** in `reports/testing/` using the template
