@@ -22,7 +22,16 @@ This directory contains comprehensive reports, analysis, and documentation for t
 - User manuals
 - Feature specifications
 
-### 🔍 **exploration/**
+### � **coding/**
+**Feature implementation and development reports**
+- Implementation overviews
+- Architecture decisions
+- Code quality metrics
+- Integration documentation
+- Performance analysis
+- Future considerations
+
+### �🔍 **exploration/**
 **Research and experimental findings**
 - Technology evaluations
 - Proof-of-concept reports
@@ -117,6 +126,7 @@ Each directory contains standardized templates for consistent reporting:
 - **Issue Report Template** - For bug tracking and resolution
 - **Code Review Template** - For systematic code evaluation  
 - **Feature Analysis Template** - For new feature assessment
+- **Implementation Report Template** - For feature development documentation
 - **Performance Report Template** - For benchmarking and optimization
 - **Security Audit Template** - For vulnerability assessment
 - **Research Template** - For investigation documentation
@@ -147,11 +157,14 @@ Each directory contains standardized templates for consistent reporting:
 ## 🤝 Collaboration Workflow
 
 ### 👥 **Team Coordination**
-- **@analyst** - Conducts detailed technical analysis
-- **@reviewer** - Performs comprehensive code reviews
+- **@explorer** - Conducts architectural analysis and system mapping
 - **@docwriter** - Creates documentation and guides
-- **@researcher** - Investigates new technologies and approaches
+- **@reviewer** - Performs comprehensive code reviews
+- **@coder** - Implements features and develops solutions
 - **@tester** - Executes testing and quality assurance
+- **@fixer** - Diagnoses and resolves issues
+- **@refactorer** - Improves code quality and structure
+- **@troubleshooter** - Investigates problems and debugging
 
 ### 📋 **Review Process**
 1. **Draft creation** by assigned team member

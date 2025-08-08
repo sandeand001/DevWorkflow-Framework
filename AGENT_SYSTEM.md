@@ -41,6 +41,7 @@ When you use `@agent` commands in your AI chat, the AI assistant will:
 |---------|------|------------------|---------|-------------------|
 | `@docwriter` | Technical Documentation Specialist | `instructions/docwriter.md` | README creation, API docs, technical writing | **documentation/** reports |
 | `@explorer` | Codebase Architecture Analyst | `instructions/explorer.md` | Code exploration, architecture mapping | **exploration/** reports |
+| `@coder` | High-Level Feature Implementation | `instructions/coder.md` | Production-ready code, architectural designs | **coding/** reports |
 | `@fixer` | Bug Diagnosis & Resolution | `instructions/fixer.md` | Issue diagnosis, minimal surgical fixes | **fixes/** reports |
 | `@refactorer` | Code Quality Improvement | `instructions/refactorer.md` | Structure improvement, debt reduction | **refactoring/** reports |
 | `@reviewer` | Code Quality & Standards | `instructions/reviewer.md` | Code review, security, standards compliance | **code-reviews/** reports |
@@ -64,6 +65,14 @@ When you use `@agent` commands in your AI chat, the AI assistant will:
 @explorer map the dependencies and external interfaces
 ```
 **Expected Output**: Architectural analysis + detailed report in `reports/exploration/`
+
+### Feature Implementation
+```
+@coder implement a user authentication system with JWT tokens
+@coder build a REST API for the inventory management module
+@coder create a data processing pipeline for analytics
+```
+**Expected Output**: Production-ready code + implementation report in `reports/coding/`
 
 ### Bug Fixing
 ```

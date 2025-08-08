@@ -31,6 +31,7 @@ In your AI chat (GitHub Copilot, Claude, etc.):
    - `@docwriter update the README.md`
    - `@explorer analyze this codebase`
    - `@reviewer check this code for issues`
+   - `@coder implement a new feature`
    - `@tester design tests for this feature`
    - `@fixer debug this authentication error`
    - `@refactorer improve this code structure`
@@ -45,6 +46,7 @@ In your AI chat (GitHub Copilot, Claude, etc.):
 | `@docwriter` | Documentation & README | `@docwriter create API docs` |
 | `@explorer` | Code architecture analysis | `@explorer map the data flow` |
 | `@reviewer` | Code quality & security | `@reviewer check for vulnerabilities` |
+| `@coder` | Feature implementation | `@coder build REST API endpoints` |
 | `@tester` | Test strategy & coverage | `@tester design unit tests` |
 | `@fixer` | Bug diagnosis & fixes | `@fixer debug login issues` |
 | `@refactorer` | Code improvement | `@refactorer reduce technical debt` |

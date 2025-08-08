@@ -1,6 +1,15 @@
 # DevWorkflow-Framework
 
-**Production-ready AI-assisted development workflow framework with 7 specialized agents for consistent, high-quality software development**
+**Production-ready AI-| Agent | Expertise | Deliverables |
+|-------|-----------|--------------|
+| **🗺️ @explorer** | Codebase Architecture Analysis | System understanding, architectural reports |
+| **📝 @docwriter** | Technical Documentation | README files, API docs, technical writing |
+| **👁️ @reviewer** | Code Quality Assurance | Code reviews, security audits |
+| **💻 @coder** | Feature Implementation | Production-ready code, architectural designs |
+| **🧪 @tester** | Test Strategy & Implementation | Test strategies, coverage analysis |
+| **🛠️ @fixer** | Bug Diagnosis & Resolution | Targeted fixes with validation |
+| **🔧 @refactorer** | Code Quality Improvement | Refactoring plans and implementations |
+| **🔍 @troubleshooter** | Problem Investigation | Root cause analysis, debugging strategies |development workflow framework with 7 specialized agents for consistent, high-quality software development**
 
 [![Framework](https://img.shields.io/badge/Framework-DevWorkflow-brightgreen)](https://github.com/sandeand001/DevWorkflow-Framework)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-green)](https://github.com/sandeand001/DevWorkflow-Framework)
@@ -95,6 +104,7 @@ Each agent generates standardized reports using templates:
 | **exploration/** | 300+ lines | @explorer | Architectural analysis |
 | **documentation/** | ~250 lines | @docwriter | Technical specs |
 | **code-reviews/** | ~200 lines | @reviewer | Quality assessments |
+| **coding/** | ~300 lines | @coder | Implementation reports |
 | **testing/** | ~180 lines | @tester | Test strategies |
 | **fixes/** | ~150 lines | @fixer | Bug resolution |
 | **refactoring/** | ~170 lines | @refactorer | Code improvements |
@@ -164,6 +174,7 @@ DevWorkflow-Framework/
 │   ├── instructions.md          # Universal AI assistant guidelines
 │   ├── docwriter.md            # Technical documentation specialist  
 │   ├── explorer.md             # Codebase architecture analyst
+│   ├── coder.md                # High-level feature implementation specialist
 │   ├── fixer.md                # Bug diagnosis & resolution specialist
 │   ├── refactorer.md           # Code quality improvement expert
 │   ├── reviewer.md             # Code quality & standards auditor
@@ -171,6 +182,7 @@ DevWorkflow-Framework/
 │   └── troubleshooter.md       # Problem investigation specialist
 ├── 📊 reports/                   # Documentation & Analysis Hub
 │   ├── code-reviews/           # Systematic code evaluation reports
+│   ├── coding/                 # Implementation and architecture reports
 │   ├── documentation/          # Technical specifications and guides
 │   ├── exploration/            # Research and architectural analysis
 │   ├── fixes/                  # Bug resolution tracking
@@ -235,6 +247,7 @@ Each agent generates **standardized reports** using templates from `reports/` di
 | **exploration/** | 300+ lines | Architectural analysis, research findings | @explorer |
 | **documentation/** | ~250 lines | Technical specifications, user guides | @docwriter |
 | **code-reviews/** | ~200 lines | Quality assessments, security audits | @reviewer |
+| **coding/** | ~300 lines | Implementation reports, architecture decisions | @coder |
 | **testing/** | ~180 lines | Test strategies, coverage analysis | @tester |
 | **fixes/** | ~150 lines | Bug resolution documentation | @fixer |
 | **refactoring/** | ~170 lines | Code improvement plans | @refactorer |
