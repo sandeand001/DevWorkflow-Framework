@@ -47,6 +47,7 @@ When you use `@agent` commands in your AI chat, the AI assistant will:
 | `@reviewer` | Code Quality & Standards | `instructions/reviewer.md` | Code review, security, standards compliance | **code-reviews/** reports |
 | `@tester` | Test Strategy & Implementation | `instructions/tester.md` | Test design, coverage analysis | **testing/** reports |
 | `@troubleshooter` | Problem Investigation | `instructions/troubleshooter.md` | Root cause analysis, systematic debugging | **troubleshooting/** reports |
+| `@cleaner` | Codebase Cleanup & Optimization | `instructions/cleaner.md` | Dead code removal, duplication elimination, structure optimization | **cleanup/** reports |
 
 ## Usage Examples
 
@@ -105,6 +106,14 @@ When you use `@agent` commands in your AI chat, the AI assistant will:
 @refactorer analyze this component for potential improvements
 ```
 **Expected Output**: Refactoring plan + improvement documentation in `reports/refactoring/`
+
+### Codebase Cleanup
+```
+@cleaner remove duplicate code and dead files from this project
+@cleaner optimize the test suite and eliminate brittle tests
+@cleaner consolidate utility functions and clean up dependencies
+```
+**Expected Output**: Cleanup artifacts + comprehensive optimization report in `reports/cleanup/`
 
 ### Troubleshooting
 ```
@@ -289,16 +298,19 @@ You can modify the instruction files in `devworkflow/instructions/` to customize
 **Report Categories**:
 - `exploration/` - Architectural analysis and research findings (@explorer)
 - `documentation/` - Technical specifications and guides (@docwriter)  
+- `coding/` - Implementation and architecture reports (@coder)
 - `code-reviews/` - Quality assessments and security audits (@reviewer)
 - `testing/` - Test strategies and coverage analysis (@tester)
 - `fixes/` - Bug resolution documentation (@fixer)
 - `refactoring/` - Code improvement plans (@refactorer)
+- `cleanup/` - Codebase optimization and dead code removal (@cleaner)
 - `troubleshooting/` - Problem diagnosis guides (@troubleshooter)
 
 ### Integration with Development Workflow
 - Use `@reviewer` before merging pull requests → **generates code review report**
 - Use `@tester` when adding new features → **generates test strategy report**
 - Use `@explorer` when onboarding new team members → **generates architectural overview report**
+- Use `@cleaner` during technical debt sprints → **generates cleanup optimization report**
 - Use `@troubleshooter` for production issues → **generates diagnostic report**
 
 > **Framework Expectation**: Every agent interaction should produce both immediate assistance and a documented report for future reference and team knowledge sharing.

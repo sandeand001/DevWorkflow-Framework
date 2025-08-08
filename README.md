@@ -9,7 +9,7 @@
 | **🧪 @tester** | Test Strategy & Implementation | Test strategies, coverage analysis |
 | **🛠️ @fixer** | Bug Diagnosis & Resolution | Targeted fixes with validation |
 | **🔧 @refactorer** | Code Quality Improvement | Refactoring plans and implementations |
-| **🔍 @troubleshooter** | Problem Investigation | Root cause analysis, debugging strategies |development workflow framework with 7 specialized agents for consistent, high-quality software development**
+| **🔍 @troubleshooter** | Problem Investigation | Root cause analysis, debugging strategies |development workflow framework with 9 specialized agents for consistent, high-quality software development**
 
 [![Framework](https://img.shields.io/badge/Framework-DevWorkflow-brightgreen)](https://github.com/sandeand001/DevWorkflow-Framework)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-green)](https://github.com/sandeand001/DevWorkflow-Framework)
@@ -22,8 +22,8 @@ The DevWorkflow-Framework transforms any AI assistant into a suite of specialize
 
 ### Key Features
 
-- **🎯 7 Expert AI Agents**: Each with 150-200 lines of specialized behavioral instructions
-- **📊 Standardized Templates**: 8 report categories with consistent formatting  
+- **🎯 9 Expert AI Agents**: Each with 150-200 lines of specialized behavioral instructions
+- **📊 Standardized Templates**: 9 report categories with consistent formatting  
 - **⚡ 30-Second Setup**: Quick integration via git submodules
 - **🔧 Universal Compatibility**: Works with any AI assistant and programming language
 - **📚 Enterprise Documentation**: Comprehensive guides and quality standards
@@ -60,10 +60,12 @@ git submodule update --init --recursive
 |-------|-----------|--------------|
 | **🗺️ @explorer** | Codebase Architecture Analysis | System understanding, architectural reports |
 | **📝 @docwriter** | Technical Documentation | README files, API docs, technical writing |
-| **�️ @reviewer** | Code Quality Assurance | Code reviews, security audits |
+| **💻 @coder** | Feature Implementation | Production-ready code, architectural designs |
+| **👁️ @reviewer** | Code Quality Assurance | Code reviews, security audits |
 | **🧪 @tester** | Test Strategy & Implementation | Test strategies, coverage analysis |
 | **🛠️ @fixer** | Bug Diagnosis & Resolution | Targeted fixes with validation |
 | **🔧 @refactorer** | Code Quality Improvement | Refactoring plans and implementations |
+| **🧹 @cleaner** | Codebase Optimization | Dead code removal, duplication elimination |
 | **🔍 @troubleshooter** | Problem Investigation | Root cause analysis, debugging strategies |
 
 ### Agent Workflows
@@ -88,8 +90,8 @@ graph LR
 
 ```
 DevWorkflow-Framework/
-├── instructions/              # Agent instruction files (7 agents, 1,400+ lines)
-├── reports/                   # Standardized templates (8 categories)
+├── instructions/              # Agent instruction files (9 agents, 1,600+ lines)
+├── reports/                   # Standardized templates (9 categories)
 ├── AGENT_SYSTEM.md           # Complete documentation (270+ lines)
 ├── QUICK_SETUP.md            # 30-second setup guide
 └── README.md                 # Framework overview
@@ -108,6 +110,7 @@ Each agent generates standardized reports using templates:
 | **testing/** | ~180 lines | @tester | Test strategies |
 | **fixes/** | ~150 lines | @fixer | Bug resolution |
 | **refactoring/** | ~170 lines | @refactorer | Code improvements |
+| **cleanup/** | ~250 lines | @cleaner | Codebase optimization |
 | **troubleshooting/** | ~200 lines | @troubleshooter | Problem diagnosis |
 
 ## Enterprise Benefits
@@ -170,7 +173,7 @@ All components rated **⭐⭐⭐⭐⭐** for:
 ### System Components
 ```
 DevWorkflow-Framework/
-├── 🎯 instructions/              # AI Agent Role Definitions (8 files)
+├── 🎯 instructions/              # AI Agent Role Definitions (9 files)
 │   ├── instructions.md          # Universal AI assistant guidelines
 │   ├── docwriter.md            # Technical documentation specialist  
 │   ├── explorer.md             # Codebase architecture analyst
@@ -179,6 +182,7 @@ DevWorkflow-Framework/
 │   ├── refactorer.md           # Code quality improvement expert
 │   ├── reviewer.md             # Code quality & standards auditor
 │   ├── tester.md               # Test strategy & implementation specialist
+│   ├── cleaner.md              # Codebase optimization & cleanup specialist
 │   └── troubleshooter.md       # Problem investigation specialist
 ├── 📊 reports/                   # Documentation & Analysis Hub
 │   ├── code-reviews/           # Systematic code evaluation reports
@@ -187,6 +191,7 @@ DevWorkflow-Framework/
 │   ├── exploration/            # Research and architectural analysis
 │   ├── fixes/                  # Bug resolution tracking
 │   ├── refactoring/           # Code improvement documentation
+│   ├── cleanup/               # Codebase optimization and maintenance
 │   ├── testing/               # Quality assurance and test reports
 │   └── troubleshooting/       # Problem diagnosis guides
 ├── 📖 AGENT_SYSTEM.md           # Complete system documentation (270+ lines)
@@ -251,6 +256,7 @@ Each agent generates **standardized reports** using templates from `reports/` di
 | **testing/** | ~180 lines | Test strategies, coverage analysis | @tester |
 | **fixes/** | ~150 lines | Bug resolution documentation | @fixer |
 | **refactoring/** | ~170 lines | Code improvement plans | @refactorer |
+| **cleanup/** | ~250 lines | Codebase optimization, dead code removal | @cleaner |
 | **troubleshooting/** | ~200 lines | Problem diagnosis guides | @troubleshooter |
 
 ### Quality Assurance Framework
@@ -321,7 +327,7 @@ Each agent generates **standardized reports** using templates from `reports/` di
 ### Complete File Structure
 ```
 DevWorkflow-Framework/
-├── 📁 instructions/                    # AI Agent Role Definitions (8 files, ~1,400 total lines)
+├── 📁 instructions/                    # AI Agent Role Definitions (9 files, ~1,600 total lines)
 │   ├── instructions.md                # Universal AI assistant guidelines and standards
 │   ├── docwriter.md                   # Technical documentation specialist (~180 lines)
 │   ├── explorer.md                    # Codebase architecture analyst (177 lines)
@@ -329,8 +335,9 @@ DevWorkflow-Framework/
 │   ├── refactorer.md                  # Code quality improvement expert (~160 lines)
 │   ├── reviewer.md                    # Code quality & standards auditor (~200 lines)
 │   ├── tester.md                      # Test strategy & implementation specialist (~170 lines)
+│   ├── cleaner.md                     # Codebase optimization & cleanup specialist (~180 lines)
 │   └── troubleshooter.md              # Problem investigation specialist (~190 lines)
-├── 📁 reports/                        # Documentation & Analysis Hub (8 categories)
+├── 📁 reports/                        # Documentation & Analysis Hub (9 categories)
 │   ├── README.md                      # Reports system overview and guidelines
 │   ├── code-reviews/                  # Code evaluation and feedback reports
 │   │   └── _TEMPLATE.md              # Standardized code review template
@@ -442,8 +449,8 @@ cd devworkflow && git log --oneline -5
 
 ### Component Status
 All framework components rated **⭐⭐⭐⭐⭐** and production-ready:
-- ✅ Core Architecture (7 agents, 1,400+ instruction lines)
-- ✅ Report Templates (8 categories, standardized formats)  
+- ✅ Core Architecture (9 agents, 1,600+ instruction lines)
+- ✅ Report Templates (9 categories, standardized formats)  
 - ✅ Documentation (multiple detail levels, comprehensive)
 - ✅ Integration Process (30-second setup, git submodules)
 - ✅ Quality Framework (built-in standards, validation)
@@ -474,8 +481,8 @@ The **DevWorkflow-Framework** transforms AI assistants into specialized developm
 | Component | Status | Quality Rating | Notes |
 |-----------|--------|----------------|-------|
 | **Core Architecture** | ✅ Complete | ⭐⭐⭐⭐⭐ | Excellent modular design, proven patterns |
-| **Agent Instructions** | ✅ Complete | ⭐⭐⭐⭐⭐ | 7 agents, 1,400+ lines of detailed guidance |
-| **Report Templates** | ✅ Complete | ⭐⭐⭐⭐⭐ | 8 categories, standardized formats |
+| **Agent Instructions** | ✅ Complete | ⭐⭐⭐⭐⭐ | 9 agents, 1,600+ lines of detailed guidance |
+| **Report Templates** | ✅ Complete | ⭐⭐⭐⭐⭐ | 9 categories, standardized formats |
 | **Documentation** | ✅ Complete | ⭐⭐⭐⭐⭐ | Multiple detail levels, comprehensive coverage |
 | **Integration Process** | ✅ Complete | ⭐⭐⭐⭐⭐ | 30-second setup, git submodule strategy |
 | **Quality Framework** | ✅ Complete | ⭐⭐⭐⭐⭐ | Built-in standards, validation protocols |
@@ -527,8 +534,8 @@ cd devworkflow && git log --oneline -5
 The **DevWorkflow-Framework** is a production-ready, enterprise-grade solution that transforms AI assistants into specialized development experts. With **⭐⭐⭐⭐⭐ ratings** across all quality metrics, this framework provides:
 
 ### ✅ **Proven Results**
-- **7 Specialized Agents** with 1,400+ lines of expert instructions
-- **8 Report Categories** with standardized templates and quality controls
+- **9 Specialized Agents** with 1,600+ lines of expert instructions
+- **9 Report Categories** with standardized templates and quality controls
 - **30-Second Integration** via git submodules for any project
 - **Universal Compatibility** with all AI assistants and programming languages
 - **Enterprise Quality** with comprehensive documentation and validation protocols

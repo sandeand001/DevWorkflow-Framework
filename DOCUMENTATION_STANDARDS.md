@@ -45,9 +45,11 @@ All report templates must include:
 - **Code Reviews**: `**Reviewer**: AI Code Review Agent`
 - **Documentation**: `**Writer**: AI Documentation Agent`
 - **Exploration**: `**Explorer**: AI Code Exploration Agent`
+- **Coding**: `**Developer**: AI Coding Agent`
 - **Fixes**: `**Developer**: AI Fix Agent`
 - **Refactoring**: `**Developer**: AI Refactoring Agent`
 - **Testing**: `**Tester**: AI Testing Agent`
+- **Cleanup**: `**Cleaner**: AI Cleanup Agent`
 - **Troubleshooting**: `**Investigator**: AI Troubleshooting Agent`
 
 ---

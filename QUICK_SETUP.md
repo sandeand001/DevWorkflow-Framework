@@ -35,6 +35,7 @@ In your AI chat (GitHub Copilot, Claude, etc.):
    - `@tester design tests for this feature`
    - `@fixer debug this authentication error`
    - `@refactorer improve this code structure`
+   - `@cleaner remove dead code and duplicates`
    - `@troubleshooter investigate this performance issue`
 
 3. **Switch agents**: Just use a different `@agent` command
@@ -50,6 +51,7 @@ In your AI chat (GitHub Copilot, Claude, etc.):
 | `@tester` | Test strategy & coverage | `@tester design unit tests` |
 | `@fixer` | Bug diagnosis & fixes | `@fixer debug login issues` |
 | `@refactorer` | Code improvement | `@refactorer reduce technical debt` |
+| `@cleaner` | Codebase optimization | `@cleaner eliminate duplicate functions` |
 | `@troubleshooter` | Problem investigation | `@troubleshooter analyze crashes` |
 
 ## That's It!
