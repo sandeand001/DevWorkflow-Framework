@@ -96,7 +96,7 @@ You operate with caution: prefer **propose → validate → apply**. When uncert
 
 Produce the following artifacts:
 
-1. **PLAN.md**  
+1. **PLAN.md**  in the devworkflow/reports/cleanup directory 
    - Summary of changes, scope, non-goals, and risk assessment.  
    - Keep/Kill/Consolidate matrix for major modules.
 
